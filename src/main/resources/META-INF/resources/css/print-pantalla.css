@@ -1,0 +1,98 @@
+@media print {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+		.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+		float: left;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+	.col-md-11 {
+		width: 91.66666667%;
+	}
+	.col-md-10 {
+		width: 83.33333333%;
+	}
+	.col-md-9 {
+		width: 75%;
+	}
+	.col-md-8 {
+		width: 66.66666667%;
+	}
+	.col-md-7 {
+		width: 58.33333333%;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-5 {
+		width: 41.66666667%;
+	}
+	.col-md-4 {
+		width: 33.33333333%;
+	}
+	.col-md-3 {
+		width: 25%;
+	}
+	.col-md-2 {
+		width: 16.66666667%;
+	}
+	.col-md-1 {
+		width: 8.33333333%;
+	}
+	header, footer, nav, aside {
+		display: none;
+	}
+	.table.data-table{
+		display: none;
+	}
+	.table.imp{
+		display: table !important;
+	}
+	.dataTables_filter, .dt-buttons, .dataTables_length,
+		.dataTables_paginate, .dataTables_info {
+		display: none;
+	}
+	.accordion.md-accordion .card .collapse {
+		display: block !important;
+		height: auto !important;
+	}
+	.accordion.md-accordion .card .card-header {
+		background-color: #33b5e5;
+	}
+	.accordion.md-accordion .card .card-header h5{
+		color: white !important;
+	}
+	.form-wrapper #tabs .oculP {
+		display: none;
+	}
+	#tabs .ui-tabs-nav.ui-corner-all {
+		border: none;
+	}
+	section#content {
+		margin-top: 0px;
+	}
+	.ui-tabs.ui-widget-content {
+		border: none;
+	}
+	i.fas {
+		display: none;
+	}
+	table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting:before,
+		table.dataTable thead .sorting:after, table.dataTable thead .sorting:before,
+		table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting:after,
+		table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after
+		{
+		display: none;
+		opacity: 0;
+	}
+	#imprimePantalla {
+		display: none;
+	}
+	.table thead th {
+		background-color: silver !important;
+	}
+	.table .rowVencido td {
+		background-color: #ff3547 !important;
+		color: white !important;
+	}
+}

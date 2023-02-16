@@ -1,0 +1,57 @@
+.card-header.modificado{
+	z-index: 2;
+	height: 60px;
+}
+
+
+.table .rowVencido td{
+	background-color: #ff3547 !important;
+	color: white;
+}
+
+
+#tabs-2 .card .card-header{
+	background-color: #1976d2;
+}
+
+
+table.tblTit{
+	width: 10% !important;
+}
+
+.table-wrapper-scroll-table{
+    position: relative;
+    max-width: 72%;
+    overflow-x: auto;
+}
+
+table.tblTot{
+	width: 15% !important;
+	max-width: 15%;
+}
+
+li span.noUbT{
+	transition: background-color 0.5s ease;
+    background-color: rgb(0, 127, 255);
+    border-radius: 5px;
+    color: white;
+    white-space: pre;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+li.ui-tabs-active.ui-state-active span.noUbT{
+    transition: background-color 0.5s ease;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    color: black;
+    white-space: pre;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.site-wrapper .blue-grey.lighten-4 tr th {
+    background-color: #cfd8dc !important;
+}
